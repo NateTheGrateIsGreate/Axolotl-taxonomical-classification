@@ -1,0 +1,418 @@
+import time
+
+import os
+
+import random
+
+loop = 1
+
+loop2 = 1
+
+class wait:
+
+ random_number = random.randint(1, 10)  # Random wait time generator
+
+ def wait_time(random_number):
+
+   time.sleep(random_number) # Random wait time
+
+class axolotl_Typs:
+ 
+    types = [
+        "White Albino Axolotl",
+        "Golden Albino Axolotl",
+        "Leucistic Axolotl",
+        "Melanoid Axolotl",
+        "Chimera axolotl",
+        "Copper Axolotl",
+        "GFP axolotl",
+        "Leucistic axolotl",
+        "Wild type axolotl",
+        "Albino axolotl",
+        "Axanthic axolotl",
+        "Melanoid Axolotl",
+        "Piebald axolotl",
+        "Wild type axolotl",
+        "Enigma Axolotl",
+        "Firefly axolotl",
+        "Mosaic axolotl",
+        "GFP axolotl",
+        "Silver Dalmatian axolotl",
+        "Blue axolotl",
+        "Axanthic axolotl",
+    ]
+
+class Animalia:
+
+    def __init__(self, name):
+
+        self.name = name
+
+        self.characteristics = "Cellular organization, Heterotrophy, Reproduction, Growth, Development, Movement, Response to stimuli, Homeostasis, Adaptation"
+
+class Chordata(Animalia):
+
+    def __init__(self, name):
+
+        super().__init__(name)
+
+        self.characteristics += ", Notochord, Dorsal hollow nerve cord, Pharyngeal slits, Post-anal tail"
+
+class Amphibians(Chordata):
+
+    def __init__(self, name):
+
+        super().__init__(name)
+
+        self.characteristics += ", Cold-blooded, Vertebrates, Live in water and on land, Lay eggs, Have moist skin, Have gills when young, Have lungs when adult, Have a three-chambered heart, Have a larval stage"
+
+class axolotl(Amphibians):
+
+    def __init__(self, name):
+
+        super().__init__(name)
+
+        self.characteristics += ", Axolotls are carnivorous, have a remarkable ability to regenerate lost or damaged tissues and organs, have gills, related to salamanders"
+
+
+print(r"""
+
+                    .:;.                         ..                  
+                     .:xl,.                     .cd;                  
+                      ,kOd,                    'oko;.                 
+                     .;x0o'                  .ckko;.                  
+            .       .'lO0o.                 .ckOo,.        .,;'.      
+           .cc.     .,xK0c.               .'ckKk:.       ,col;.       
+           .ckk;    .ckKKo',:loddxxdddol:,':kKKk:.     'okd:.         
+           .,lkOl. .;d0XNXXNWWWWWWWWWWWWNXK0KK0d;.  .;okko;.          
+            .,cxOOxdk0XNWWWNNNWWWWWWWNNNNNNNXXK0xlcdkOkxl;.           
+    ,:;,'.   .,:okKNNNWKkOXNXXXNNNNNNXXXXXOokXXKKOkkxol;..            
+    ..,cdxdocclldkKNWWWOoONNNNXNNNNNNXXNNXkcoKXK0kxddollc:ccc:;,..    
+       .';ldk00KKKXNWNNNXNWWWWWWWWWWWWWWNXKKKKXKOkxxkOOOkxxol;''..    
+          .,:codxkKNWWWNWWWNNNXNNNNNNNXXKKK0000OOxlclllc;'...         
+            ...';:l0NNXXXKK00OOOOOOOOkkkkkkkkkOko:'.....              
+                 ..'codxkkxxxddddddddddoooooolc;..                    
+                       .cxdooolllccccccccllc'                         
+                     .'lk0xdolc::;;;;:::cloo,                         
+                 .;lx0XXKOkdlcc:;,,,,;;;:cldo;.                       
+               .cOXNXKkl;,:lc:;,'.....',,;cldxl'                      
+               :KNXOl,.    .',,'........',:cloxxc'                    
+              .dXXO,        .cdo:,......,,;:lldkkd,                   
+              .kNXx.      .:dxo;.       ..  .;lxOOl.                  
+              :KXKk,     'oxo;.               ,x00d:.                 
+            .l0NX0kd:. .;dxl'                .ck0Odoo:.               
+          .;d0koOk,',..cxxl.                .:k00kdlool,.             
+         .,:oc..l:   'lxxo'                .,:o0OOkolllo:.            
+          .,.   .. .;oxxdc.                   .oc,ll:ccclc,.          
+                 .,coddooc.                    .   ';;:;:cc:;'.       
+                .',cl:c:...                         ...,'.,;;'.       
+                ..,,..;.                               ..   ..        
+                 ..  ..                                             
+                       
+            """)
+
+time.sleep(.5)
+
+print("""
+
+    Welcome to 
+
+    Starting...
+
+    """)
+
+wait.wait_time(wait.random_number)
+
+time.sleep(.5)
+
+while loop  < 2:
+
+    print("""
+
+    Axolotl Types:
+
+    """)
+
+    wait.wait_time(wait.random_number)
+
+    for i in range(len(axolotl_Typs.types)):
+        
+        print("    " + str(i) + ". " + axolotl_Typs.types[i])
+
+        time.sleep(.5)
+
+    wait.wait_time(wait.random_number)
+
+    print("""
+
+        Type the number of the axolotl you would like to learn more about
+
+        """)
+
+    user_choice = input()  # Store the input in a variable
+
+    if user_choice == "0":
+
+        print("""
+
+    Type: White Albino Axolotl
+
+        """)
+
+        white_albino_axolotl = Amphibians("White Albino Axolotl")
+
+        print(white_albino_axolotl.characteristics)
+
+        time.sleep(1)
+
+
+    elif user_choice == "1":
+
+        print("""
+
+        Type: Golden Albino Axolotl
+
+        """)
+
+        time.sleep(1)
+
+        golden_albino_axolotl = axolotl("Golden Albino Axolotl")
+
+        print(golden_albino_axolotl.characteristics)
+
+        time.sleep(1)
+
+        
+    elif user_choice == "2":
+
+        print("""
+
+        Axolotl Type: Leucistic Axolotl
+
+        """)
+
+        leucistic_axolotl = axolotl("Leucistic Axolotl")
+
+        print(leucistic_axolotl.characteristics)
+
+        time.sleep(1)
+
+        
+    elif user_choice == "3":
+
+        print("""
+
+        Axolotl Type: Melanoid Axolotl
+
+        """)
+
+        time.sleep(1)
+
+        melanoid_axolotl = axolotl("Melanoid Axolotl")
+
+        print(melanoid_axolotl.characteristics)
+
+        time.sleep(1)
+
+    
+
+    elif user_choice == "4":
+
+        print("""
+
+        Axolotl Type: Chimera axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Chimera_axolotl = axolotl("Chimera axolotl")
+
+        print(Chimera_axolotl.characteristics)
+
+        time.sleep(1)
+
+        
+
+    elif user_choice == "5":
+
+        print("""
+
+        Axolotl Type: Copper Axolotl
+
+        """)
+
+        time.sleep(1)
+
+        copper_axolotl = axolotl("Copper Axolotl")
+
+        print(copper_axolotl.characteristics)
+    
+        time.sleep(1)
+
+        
+
+    elif user_choice == "6":
+
+        print("""
+
+        Axolotl Type: GFP axolotl
+
+        """)
+
+        time.sleep(1)
+
+        GFP_axolotl = axolotl("GFP axolotl")
+
+        print(GFP_axolotl.characteristics)
+
+        time.sleep(1)
+
+        
+
+    elif user_choice == "7":
+
+        print("""
+
+        Axolotl Type: Leucistic axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Leucistic_axolotle = axolotl("Leucistic axolotl")
+
+        print(Leucistic_axolotle.characteristics)
+
+        time.sleep(1)
+
+
+    elif user_choice == "8":
+
+        print("""
+
+        Axolotl Type: Wild type axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Wild_type_axolotl = axolotl("Wild type axolotl")
+
+        print(Wild_type_axolotl.characteristics)
+
+        time.sleep(1)
+    
+    elif user_choice == "9":
+
+        print("""
+
+        Axolotl Type: Wild type axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Wild type axolotl = axolotl("Wild type axolotl")
+
+        print(Albino_axolotl.characteristics)
+
+        time.sleep(1)
+
+    elif user_choice == "10":
+
+        print("""
+
+        Axolotl Type: Axanthic axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Axanthic_axolotl = axolotl("Axanthic axolotl")
+
+        print(Axanthic_axolotl.characteristics)
+    
+        time.sleep(1)
+
+    elif user_choice == "11":
+
+        print("""
+
+        Axolotl Type: Copper axolotl
+
+        """)
+
+        time.sleep(1)
+
+        
+        time.sleep(1)
+
+    elif user_choice == "12":
+
+        print("""
+
+       
+
+        """)
+
+        time.sleep(1)
+
+        
+    
+        time.sleep(1)
+
+
+    wait.wait_time(wait.random_number)
+
+    while loop  < 2:
+
+       print("""
+
+       Do you want to learn about another axolotl type?
+
+        """)
+    
+       user_choice2 = input()  # Store the input in a variable
+
+       if user_choice2 == "No":
+
+          print("""
+
+          Thanks for learning about axolotls
+
+          """)
+
+          time.sleep(1)
+
+          loop = 2
+
+          loop2 = 2
+
+       if user_choice2 == "Yes":
+
+          loop = 1
+
+          loop2 = 2
+
+       else:
+
+        print("Invalid input")
+
+        print("")
+
+        time.sleep(1)
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
