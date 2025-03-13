@@ -4,9 +4,13 @@ import os
 
 import random
 
+import sys
+
 loop = 1
 
 loop2 = 1
+
+loop3 = 1
 
 class wait:
 
@@ -16,41 +20,62 @@ class wait:
 
    time.sleep(random_number) # Random wait time
 
-class axolotl_Typs:
+def clear_screen():
+   
+    if os.name == 'nt':  # For Windows
+
+        os.system('cls')
+
+    else:  # For Unix-based systems (Linux, macOS)
+
+        os.system('clear')
+
+class axolotl_Typs: # Axolotl types 
  
     types = [
+
         "White Albino Axolotl",
+
         "Golden Albino Axolotl",
+
         "Leucistic Axolotl",
+
         "Melanoid Axolotl",
+
         "Chimera axolotl",
+
         "Copper Axolotl",
+
         "GFP axolotl",
+
         "Leucistic axolotl",
+
         "Wild type axolotl",
+
         "Albino axolotl",
+
         "Axanthic axolotl",
-        "Melanoid Axolotl",
+
         "Piebald axolotl",
-        "Wild type axolotl",
+
         "Enigma Axolotl",
+
         "Firefly axolotl",
+
         "Mosaic axolotl",
-        "GFP axolotl",
-        "Silver Dalmatian axolotl",
-        "Blue axolotl",
-        "Axanthic axolotl",
+
+        "Silver Dalmatian axolotl"
     ]
 
 class Animalia:
 
-    def __init__(self, name):
+    def __init__(self, name): # Animalia class
 
         self.name = name
 
         self.characteristics = "Cellular organization, Heterotrophy, Reproduction, Growth, Development, Movement, Response to stimuli, Homeostasis, Adaptation"
 
-class Chordata(Animalia):
+class Chordata(Animalia): # Chordata class
 
     def __init__(self, name):
 
@@ -58,7 +83,7 @@ class Chordata(Animalia):
 
         self.characteristics += ", Notochord, Dorsal hollow nerve cord, Pharyngeal slits, Post-anal tail"
 
-class Amphibians(Chordata):
+class Amphibians(Chordata): # Amphibians class
 
     def __init__(self, name):
 
@@ -66,16 +91,16 @@ class Amphibians(Chordata):
 
         self.characteristics += ", Cold-blooded, Vertebrates, Live in water and on land, Lay eggs, Have moist skin, Have gills when young, Have lungs when adult, Have a three-chambered heart, Have a larval stage"
 
-class axolotl(Amphibians):
+class axolotl(Amphibians): # Axolotl class
 
     def __init__(self, name):
 
         super().__init__(name)
 
-        self.characteristics += ", Axolotls are carnivorous, have a remarkable ability to regenerate lost or damaged tissues and organs, have gills, related to salamanders"
+        self.characteristics += ", are carnivorous, have a remarkable ability to regenerate lost or damaged tissues and organs, have gills, related to salamanders"
 
 
-print(r"""
+print(r""" 
 
                     .:;.                         ..                  
                      .:xl,.                     .cd;                  
@@ -107,41 +132,42 @@ print(r"""
                  .,coddooc.                    .   ';;:;:cc:;'.       
                 .',cl:c:...                         ...,'.,;;'.       
                 ..,,..;.                               ..   ..        
-                 ..  ..                                             
-                       
-            """)
+                 ..  ..                                                       
+            """) 
 
 time.sleep(.5)
 
 print("""
-
-    Welcome to 
+    Welcome to the Axolotl Information Center
 
     Starting...
-
     """)
 
-wait.wait_time(wait.random_number)
+wait.wait_time(wait.random_number) # Random wait time
 
 time.sleep(.5)
 
-while loop  < 2:
+while loop  < 2: # Loop to keep the program running
+
+    clear_screen() # Clear the screen
+
+    loop2 = 2
 
     print("""
-
+          
     Axolotl Types:
 
     """)
 
-    wait.wait_time(wait.random_number)
+    wait.wait_time(wait.random_number) # Random wait time
 
-    for i in range(len(axolotl_Typs.types)):
+    for i in range(len(axolotl_Typs.types)): # Loop to print the axolotl types
         
         print("    " + str(i) + ". " + axolotl_Typs.types[i])
 
         time.sleep(.5)
 
-    wait.wait_time(wait.random_number)
+    wait.wait_time(wait.random_number) # Random wait time
 
     print("""
 
@@ -151,11 +177,13 @@ while loop  < 2:
 
     user_choice = input()  # Store the input in a variable
 
-    if user_choice == "0":
+    clear_screen() # Clear the screen
+
+    if user_choice == "0": # If the user chooses the White Albino axolotl
 
         print("""
 
-    Type: White Albino Axolotl
+        Type: White Albino Axolotl
 
         """)
 
@@ -165,8 +193,10 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
 
-    elif user_choice == "1":
+
+    elif user_choice == "1": # If the user chooses the Golden Albino axolotl
 
         print("""
 
@@ -182,8 +212,10 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+
         
-    elif user_choice == "2":
+    elif user_choice == "2": # If the user chooses the Leucistic axolotl
 
         print("""
 
@@ -197,8 +229,10 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+
         
-    elif user_choice == "3":
+    elif user_choice == "3": # If the user chooses the Melanoid axolotl
 
         print("""
 
@@ -214,9 +248,11 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+
     
 
-    elif user_choice == "4":
+    elif user_choice == "4": # If the user chooses the Chimera axolotl
 
         print("""
 
@@ -232,9 +268,11 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+
         
 
-    elif user_choice == "5":
+    elif user_choice == "5": # If the user chooses the Copper axolotl
 
         print("""
 
@@ -250,14 +288,17 @@ while loop  < 2:
     
         time.sleep(1)
 
+        loop2 = 1
+
         
 
-    elif user_choice == "6":
+    elif user_choice == "6": # If the user chooses the GFP axolotl
 
         print("""
 
-        Axolotl Type: GFP axolotl
-
+        Axolotl Type: GFP (green fluorescent protein.) axolotl 
+                                                                                                                                                                                                                                                                                                                                    
+    
         """)
 
         time.sleep(1)
@@ -268,9 +309,11 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+
         
 
-    elif user_choice == "7":
+    elif user_choice == "7": # If the user chooses the Leucistic axolotl
 
         print("""
 
@@ -286,8 +329,10 @@ while loop  < 2:
 
         time.sleep(1)
 
+        loop2 = 1
+        
 
-    elif user_choice == "8":
+    elif user_choice == "8": # If the user chooses the Wild type axolotl
 
         print("""
 
@@ -302,24 +347,29 @@ while loop  < 2:
         print(Wild_type_axolotl.characteristics)
 
         time.sleep(1)
-    
-    elif user_choice == "9":
+
+        loop2 = 1
+
+
+    elif user_choice == "9": # If the user chooses the Albino axolotl
 
         print("""
 
-        Axolotl Type: Wild type axolotl
+        Axolotl Type: Albino axolotl
 
         """)
 
         time.sleep(1)
 
-        Wild type axolotl = axolotl("Wild type axolotl")
+        Albino_axolotl = axolotl("Albino axolotl")
 
         print(Albino_axolotl.characteristics)
 
         time.sleep(1)
 
-    elif user_choice == "10":
+        loop2 = 1
+    
+    elif user_choice == "10": # If the user chooses the Axanthic axolotl
 
         print("""
 
@@ -332,48 +382,131 @@ while loop  < 2:
         Axanthic_axolotl = axolotl("Axanthic axolotl")
 
         print(Axanthic_axolotl.characteristics)
-    
+
         time.sleep(1)
 
-    elif user_choice == "11":
+        loop2 = 1
+
+    elif user_choice == "11": # If the user chooses the Piebald axolotl
 
         print("""
 
-        Axolotl Type: Copper axolotl
+        Axolotl Type: Piebald axolotl
 
         """)
 
         time.sleep(1)
 
-        
+        Piebald_axolotl = axolotl("Piebald axolotl")
+
+        print(Piebald_axolotl.characteristics)
+    
         time.sleep(1)
 
-    elif user_choice == "12":
+        loop2 = 1
+
+    elif user_choice == "12": # If the user chooses the Enigma axolotl
 
         print("""
 
+        Axolotl Type: Enigma Axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Enigma_axolotl = axolotl("Enigma Axolotl")
+
+        print( Enigma_axolotl.characteristics)
+
+        
+        time.sleep(1)
+
+        loop2 = 1
+
+    elif user_choice == "13": # If the user chooses the Firefly axolotl
+
+        print("""
+
+        Axolotl Type: Firefly Axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Firefly_axolotl = axolotl("Firefly Axolotl")
+
+        print( Firefly_axolotl.characteristics)
+      
+        time.sleep(1)
+
+        loop2 = 1
+
+    elif user_choice == "14": # If the user chooses the Mosaic axolotl
+
+        print("""
+
+        Axolotl Type: Mosaic axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Mosaic_axolotl = axolotl("Mosaic axolotl")
+
+        print(Mosaic_axolotl.characteristics)
+
+        time.sleep(1)
+
+        loop2 = 1
+
+    elif user_choice == "15": # If the user chooses the Silver Dalmatian axolotl
+
+        print("""
+
+        Axolotl Type: Silver Dalmatian axolotl
+
+        """)
+
+        time.sleep(1)
+
+        Silver_Dalmatian_axolotl = axolotl("Silver Dalmatian axolotl")
+
+        print(Silver_Dalmatian_axolotl.characteristics)
+
+        time.sleep(1)
+
+        loop2 = 1
+
+    else:  # If the user enters an invalid input
+
+        wait.wait_time(wait.random_number)
+
+        print("Invalid input")
+
+        print("")
+
+        time.sleep(1)
+
+        loop = 1
+
+        print("...")
+
+
+    while loop2  < 2:
        
-
-        """)
-
-        time.sleep(1)
-
-        
-    
-        time.sleep(1)
-
-
-    wait.wait_time(wait.random_number)
-
-    while loop  < 2:
+       
+       wait.wait_time(wait.random_number) # Random wait time
 
        print("""
 
-       Do you want to learn about another axolotl type?
+       Do you want to learn about another axolotl type?(No,Yes)
 
         """)
-    
+       
        user_choice2 = input()  # Store the input in a variable
+
+       clear_screen() # Clear the screen
 
        if user_choice2 == "No":
 
@@ -389,30 +522,18 @@ while loop  < 2:
 
           loop2 = 2
 
-       if user_choice2 == "Yes":
+          sys.exit() # Exit the program
+
+       if user_choice2 == "Yes": # If the user wants to learn about another axolotl type
 
           loop = 1
 
           loop2 = 2
 
-       else:
+       else: # If the user enters an invalid input
 
         print("Invalid input")
 
         print("")
 
-        time.sleep(1)
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
+        time.sleep(1.5)
