@@ -147,7 +147,7 @@ time.sleep(.5)
 
 while loop  < 2: # Loop to keep the program running
 
-    clear_screen() # Clear the screen
+    
 
     loop2 = 2
 
@@ -1176,6 +1176,8 @@ while loop  < 2: # Loop to keep the program running
           loop = 1
 
           loop2 = 2
+
+          clear_screen() # Clear the screen
 
        else: # If the user enters an invalid input
 
