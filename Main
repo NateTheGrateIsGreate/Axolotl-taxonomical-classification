@@ -193,7 +193,7 @@ while loop  < 2: # Loop to keep the program running
 
         white_albino_axolotl = Amphibians("White Albino Axolotl")
 
-        print(white_albino_axolotl.characteristics, "")
+        print(white_albino_axolotl.characteristics, "have a lack of melanin, resulting in a pale pinkish-white body, translucent skin, bright pink or red gills, and red or clear eyes.")
 
         time.sleep(1)
 
@@ -253,7 +253,7 @@ while loop  < 2: # Loop to keep the program running
 
         golden_albino_axolotl = axolotl("Golden Albino Axolotl")
 
-        print(golden_albino_axolotl.characteristics)
+        print(golden_albino_axolotl.characteristics,"have a luminous golden-yellow to light tan color, red or clear eyes, and pink or golden gills.")
 
         time.sleep(1)
 
@@ -305,7 +305,7 @@ while loop  < 2: # Loop to keep the program running
 
         leucistic_axolotl = axolotl("Leucistic Axolotl")
 
-        print(leucistic_axolotl.characteristics)
+        print(leucistic_axolotl.characteristics, "have a pale white or pinkish body, minimal pigmentation, and vibrant pink gills, with dark eyes.")
 
         time.sleep(1)
 
@@ -352,7 +352,7 @@ while loop  < 2: # Loop to keep the program running
 
         melanoid_axolotl = axolotl("Melanoid Axolotl")
 
-        print(melanoid_axolotl.characteristics)
+        print(melanoid_axolotl.characteristics, "have a dark, almost black coloration, lacking iridophores and xanthophores, resulting in a uniform, matte black appearance across their entire body.")
 
         time.sleep(1)
 
@@ -405,7 +405,7 @@ while loop  < 2: # Loop to keep the program running
 
         Chimera_axolotl = axolotl("Chimera axolotl")
 
-        print(Chimera_axolotl.characteristics)
+        print(Chimera_axolotl.characteristics,"they are very rear and are quite inactive, often not moving for a number of hours and when they do move, they are very slow.")
 
         time.sleep(1)
 
@@ -463,7 +463,7 @@ while loop  < 2: # Loop to keep the program running
 
         copper_axolotl = axolotl("Copper Axolotl")
 
-        print(copper_axolotl.characteristics)
+        print(copper_axolotl.characteristics, "have copper or light brownish-orange coloration, and red-tinted eyes and lay white eggs.")
     
         time.sleep(1)
 
@@ -518,7 +518,7 @@ while loop  < 2: # Loop to keep the program running
 
         GFP_axolotl = axolotl("GFP axolotl")
 
-        print(GFP_axolotl.characteristics)
+        print(GFP_axolotl.characteristics, "and exhibit a bright green fluorescence under certain light conditions.")
 
         time.sleep(1)
 
@@ -579,7 +579,7 @@ while loop  < 2: # Loop to keep the program running
 
         Leucistic_axolotle = axolotl("Leucistic axolotl")
 
-        print(Leucistic_axolotle.characteristics)
+        print(Leucistic_axolotle.characteristics, "have pale white or pinkish bodies, vibrant pink or red gills, and dark-colored eyes.")
 
         time.sleep(1)
 
@@ -643,7 +643,7 @@ while loop  < 2: # Loop to keep the program running
 
         Wild_type_axolotl = axolotl("Wild type axolotl")
 
-        print(Wild_type_axolotl.characteristics)
+        print(Wild_type_axolotl.characteristics, "typically exhibit a mottled brown coloration with olive or tan undertones, often featuring gold speckles, and retain juvenile features like feathery gills and a finned tail throughout their lives.")
 
         time.sleep(1)
 
@@ -700,7 +700,7 @@ while loop  < 2: # Loop to keep the program running
 
         Albino_axolotl = axolotl("Albino axolotl")
 
-        print(Albino_axolotl.characteristics)
+        print(Albino_axolotl.characteristics,"have a pale pink or white body, translucent skin, and bright red or pink gills, with clear or red eyes.")
 
         time.sleep(1)
 
@@ -756,7 +756,7 @@ while loop  < 2: # Loop to keep the program running
 
         Axanthic_axolotl = axolotl("Axanthic axolotl")
 
-        print(Axanthic_axolotl.characteristics)
+        print(Axanthic_axolotl.characteristics, "lack visible xanthophores and iridophores, resulting in a darker, often purple or gray coloration, and charcoal-black eyes.")
 
         time.sleep(1)
 
@@ -801,7 +801,7 @@ while loop  < 2: # Loop to keep the program running
 
         Piebald_axolotl = axolotl("Piebald axolotl")
 
-        print(Piebald_axolotl.characteristics)
+        print(Piebald_axolotl.characteristics,"have irregular, patchy pigmentation, featuring large areas of unpigmented white or pink skin interspersed with pigmented sections.")
     
         time.sleep(1)
 
@@ -863,7 +863,7 @@ while loop  < 2: # Loop to keep the program running
 
         Enigma_axolotl = axolotl("Enigma Axolotl")
 
-        print( Enigma_axolotl.characteristics)
+        print( Enigma_axolotl.characteristics, "have unique and varied coloration, often displaying a mix of black, white, gold, gray, and even other color patche.")
 
         time.sleep(1)
 
@@ -913,7 +913,7 @@ while loop  < 2: # Loop to keep the program running
 
         Firefly_axolotl = axolotl("Firefly Axolotl")
 
-        print( Firefly_axolotl.characteristics, "have a dramatic contrast in coloration, typically with a dark or black head and upper body, and a bright fluorescent green tail, mimicking bioluminescence through GFP genes")
+        print( Firefly_axolotl.characteristics, "have a dramatic contrast in coloration, typically with a dark or black head and upper body, and a bright fluorescent green tail, mimicking bioluminescence through GFP genes.")
       
         time.sleep(1)
 
@@ -964,7 +964,7 @@ while loop  < 2: # Loop to keep the program running
 
         Mosaic_axolotl = axolotl("Mosaic axolotl")
 
-        print(Mosaic_axolotl.characteristics,"have a patchwork appearance due to a mix of different colors or patterns across their bodies")
+        print(Mosaic_axolotl.characteristics,"have a patchwork appearance due to a mix of different colors or patterns across their bodies.")
 
         time.sleep(1)
 
@@ -1017,7 +1017,7 @@ while loop  < 2: # Loop to keep the program running
 
         Silver_Dalmatian_axolotl = axolotl("Silver Dalmatian axolotl")
 
-        print(Silver_Dalmatian_axolotl.characteristics,"have pale, silvery lavender base color with dark spots or speckles, often black or dark gray")
+        print(Silver_Dalmatian_axolotl.characteristics,"have pale, silvery lavender base color with dark spots or speckles, often black or dark gray.")
 
         time.sleep(1)
 
