@@ -257,6 +257,41 @@ while loop  < 2: # Loop to keep the program running
 
         time.sleep(1)
 
+        print("""
+
+                                                                                                                                                             
+                                                                                                       ....''...........''...........                 
+                                                                                                  ...,,;;;;;;;,,,,,;;;;;;,,,,,''''''''.....           
+                                                                                            ...',;:::::::::::::::::::::::::;;;;;;;;;,,'''......       
+                                                                                       ..',;::ccccccccccllllcclllllllllllllllllccccc::;,,,,,''''..    
+                                                                                   .';:ccccccllllllllooodddddddddddddddooooollllcccc:::;;;;;;;;,,'.   
+                                                                              ..,;clllllllooooooddddxxxxxkkxxxxxxdddoooolllccccc:::::;;;;;;,,,'..     
+                                                                        ..,;;clooooodddddddxxxxxxkkkkkkkxxxxxxddddoolllllcccc::::;;;;,,,,''...        
+                                                                   ..,;clodddddddxxxxxxxkkkkkkkkkkkkxxxxxxxxdddoooolllllccccc:::;;;;;,'...            
+                                                               .';coddxxxxkkkkkkkOOOOOOOOOOOkkkkkkkxxxxdddddddoooolllllcccc:::;,,'....                
+                                 ...                      .';coxxkkkOOOO0000000000000000OOOOkkkkxxxxxxddddddooooolllcc::;,,'...                       
+                               .,lc.                 .';coxkOO00000KKKKKKKKKKKKKKKKK0000OOOkkkkxxxxxddddoooooollc:;,....                              
+                              ,oo;.            ...,cdkO0KKKKKXXXXXXXXXXXXXXKKKKK000000OOOkkkkkxxxxdddooooolllc:,..                                    
+                             'kOl.        ..,:okkO0XXXXNNNNNNNNNNNXXXXXXXKKKKK000OOO0OOkkkkxxxddddoooolllc:,'.                                        
+                      .;;.  .oK0d;,;:lodxO0KNNX0O0XNWWWWWNNNNNNNNXXXXXKKKK000OOOkkkkkkkkkxxddddoooollc:,..                                            
+                      'x0dldONNNNXNNWWWWWWWWNX0kk0NWWWWWNNNNNNNXXXKKKK0000OOOkkxddddxxxxxddddoollc;,..                                                
+                  .,ldOXWWWWWWWWWWWWWWWWWWWNX0kxOXNNWNNNNNXXXXXXKK00OOOOkkkkkkxdollodxkkkkkxxxxo:,......                                              
+               .,o0NWWWWWWWWWWWWWWWWWWWWWWNXOxdkKXXNNXXXXXKKKKK00OOkkkkxkxxxxxdo::coxO0KKKKKKKK0Okkxxxl;.                                             
+             .lOXWWWWWWWWWWWWWWWWWWWWWWWWWNKxodOKXXK0KKKK00000OOkkkxxddxxxxdxdoc,;clodxkkOO000K0000Okdl;.                                             
+          .:dKNWWWWWWWWWWWWWWWWWWWWWWWWNNXXKOO0KK0OkkkOOOOOOOkkkxxdoooodddddddoc;;;::;,'.',;coxO0KOc..                                                
+        'd0NWWWWWWWWWWWWWWWWWWWWWWWWNNXXK0Oddxkkxdooxxxxkkkkxxxdoollllooooooolc:,....        ..:kOxl'                                                 
+      .c0NWWWWWWWN0OKNNWNNNWWWNNNXXXKK0Okkxl::cclooodddxdddooollccccclllc;,'...                'od;..                                                 
+     ,OXNNNNNNNNX0olkXNNNNNNNXXXKK0Okxdllk00kxdoodxO000Okkdlc::::::::;'.                       ....                                                   
+     :0XXXXXKKKKKK00KXNXXXKKKKKK00OOxoc;cxOOkxxkO0KXXXXXNNX0kdl;'...                                                                                  
+      'coxxxkkkOOO0000000OOkkkkxxdddoc;,;clldkkkxddooodkO0KXXX0xc'...                                                                                 
+         ...',:clloddddooooolllllcc::;,,,,;;:cc:;,'.....,cdk000000xc'                                                                                 
+                  .....'',,,,''''''......''''...          .,:odxO0o.                                                                                  
+                                                             ..:x00o.                                                                                 
+                                                                .lxl.                                                                                 
+                                                                 .'.             
+
+        """)
+
         loop2 = 1
 
         
@@ -273,6 +308,34 @@ while loop  < 2: # Loop to keep the program running
         print(leucistic_axolotl.characteristics)
 
         time.sleep(1)
+
+        print("""
+                                                                                                                                                     
+                                                                       .,c;..                                                                         
+                               .'                                      ,okdlc,.                                                                       
+                           .,;,;oc.                                    .:k00O;                                                                        
+                          ..;dOO00x:'    .                              .l0KO;                                                                        
+                          ...;codddkOd;'co,                             .l0KO:                                                                        
+                                .clokOxodd,                             .dKKk,                                                                        
+                          ..... 'lolollodd:.                            .dKKO:                                                                        
+                    ..,:ldxxkkxxxkkxdllodkOo.  ....',,;:;;:;'....       .oKKKx.                                                                       
+                .;cdxO00KKKKKKKKKK00OxdxxkOkdoxkkO0KXXXXXXXXKK0Okxoc:;,..l0XK0o.                                                                      
+             .,lxxxkO0KKXXXXKXXXXNNNXKKKKKXXXNNNNNWNWWWNNWWWNNNNNNNNNXXK00KXKK0Oxdoc:;,'....                                                          
+            'lkOOxdO0KXXXXNNNNNNWWWWWWWWWWWWWWWMMWWMMWWWWWWWWWWWWWWWWWNNNNNNXXXXXKKK00OOkkxdollcc:;;,,,''.....                                        
+           .lO000000KXNWWWWWWWWMMMMMMWWMMWWMMWWWWWWWWWWWWWWWNNNNNNNNNNNXXXXXXKKKK000OOOkkxxxxxxxxxxxxxxddddoollcccc:;;,,''......                      
+           'dkO000KKXNWWWWWWWWWWWWWWWWWWWNNNNNNNNNNNNNNNNNXXXXXXXXXXXXKKKKK0000OOkkkkxxxddoolllllcc::::;;;;:cccc:;,,,,;;:c:;,,,''........             
+           .okOOO00KXXNNNNNNWWWWWWWWWWWNNNNNNNNNWWNNNNNNNNNNNNNNNNNXXXXXXKKKK0Okxdolc:;,'.......                                                      
+            ;dkkOOOO00KKXXXNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXKKKK00OOkxddoodxxdc'...                                                                   
+             'coxdddkOO00000KKKKKKXXX0kxddddddddddddxxdddollc:;,'....    .lkkd,                                                                       
+               .,:cldxkkkkkkkOOO0000Okolc::;;............                .d00x'                                                                       
+                  ..';clodxxddddxxxxdoc:ccc;'.                           .o00x'                                                                       
+                        .........,:c:::;;;;,..                            ckOOc                                                                       
+                                 '::cc:;:;,.                             .ckOOl.                                                                      
+                                .:cloc..':;'.                           .:xkkx;                                                                       
+                               .;ccl,   ..'.                            .codc'..                                                                      
+                               .'...                                    ..,:'                                                                         
+                                                                           .        
+        """)
 
         loop2 = 1
 
@@ -292,6 +355,39 @@ while loop  < 2: # Loop to keep the program running
         print(melanoid_axolotl.characteristics)
 
         time.sleep(1)
+
+        print("""
+                                                                               .. ...               ....                                                   
+                                                                         .....'...'.          ..'''''''''''....                                       
+                                                                         ..'','',,'..      ....'',,,,;;;;::::::;.                                     
+                                                                         ...''''''....  .......',,,,;;;;;;::::ccc,                                    
+                                                                          ....''..............'',,,,,,,;;;;;;:::cc,.                                  
+                                                                          .................''''''''',,;;;;;::::::cc:.                                 
+                                                                   ... .. ....... .........'''''',,,,,;;;;;:::::cccc,                                 
+                                                              .. ..............   ...........''',,,,,,;;;;;;::::cccc;.                                
+                                                              ...............     ...........'''',,,,,,;;;;;::::cllc,''..                             
+                                                                ...............   ..........'''''',,,,,;;;;;:::cclc;',,'''.                           
+                                                        .....'',,;;;;;;'......     ..........''''',,,,,,;;;::::::;,'''','.                            
+                                                 ...',;:cloooooooooolc:,.......     ...........'''''',,,,;;;,'........''..                            
+                                         ...',;:cclooddxxxxkkkkkkxol:;'........     ............'''''',,,,..                                          
+                                .....',;:ccclllooddxxkkOOOOOOOkxdc:;,'....................''''''',,,,,;:::'.                                          
+                      .....''',,;;:::::ccllooddxxkkOOOOkkkkkkxdoc;,'.........  ......''''''''',,,,,;;;:ccllc,.                                        
+              ....',,;;;;;;;;:::::cccllooddxxkkkkkkkkkxxxxxxxdl:;,'................'',,''''''',,,;;;;:cclloodo;.                                      
+         ..'',;:::::::ccccccllloooooodddddxxxxxxxxxxxxxddddddoc;,''...............',,,'''''',,,,;;;::::;';lodxdc.                                     
+      ..;:::ccclllllllllllllloooooooooooddddddddxxxxddddddoool:,'''..............',,,''.'''',,,,;;;::;'   .:odxxl.                                    
+       ..',;:::ccccllllllllllllllllooooooooddddddddddddddddool:,''..............'',,,''''''',,,;;;;;'.     .;odxd:.                                   
+           ..',,;;;::::::cccccclllllllooooooddddddddddddddoool:,''..............',,;;,'''''',,,,,'.         .:oddo,                                   
+               ...',,,;;;;;;;;;;;:::::cccccllloooooooooooollc:,,''...............,;;;;,''''.....             'clooc.                                  
+                     .....''''',,,,,,,,,,,,,,,;;;;;;;,,,'',;;,,,'..  .....,,,,,'.';:::;'.                    .;::ll;.                                 
+                                   ....          .........';;;,..        .:looo:..';;;;;'.                   ....,,''.                                
+                                                   .;ccc::;,'..          .;lodo;......,....                      ..  .                                
+                                                  .':lollc'.            .:lool;. .    ..                                                              
+                                                   ..;l:;;.            'cl:;,.                                                                        
+                                                     ..              .':c,.                                                                           
+                                                                     ..'.                                                                             
+                                                                      .                                                                               
+                                                                                                        
+        """)
 
         loop2 = 1
 
@@ -313,6 +409,44 @@ while loop  < 2: # Loop to keep the program running
 
         time.sleep(1)
 
+        print("""
+                                        .....                                                                                                        
+                                ..,'.  ..;::,.                                                                                                        
+                               .,cc;...,;;,'..                                                                                                        
+                               .;:;,',;;'''..            ..''...                                                                                      
+                               .;::,,;;,''''',,,,,'.  ..,,:c:;'.                                                                                      
+                              ..;:ccldxdddxk000OOOxl;';:;,;;;,..                                                                                      
+                      ..    ....,:lk00KKKXXXKKKK00OOkkxd:,'',;;,..                                                                                    
+                 ..'..,c,. .'cc;;cx00KKXXXXKKKK00OOkkkkxl'.........                                                                                   
+                 ..;loxOOl;,;clccd0KK0KXXKKKK00OOkkxxddo:.........                                                                                    
+                ..':okO0K00Okkkxdk0K0O0XKKK000Oxlloooolc,.....','...                                                                                  
+                ...'col:::loooodxk0KKKK00OOkkkxdloooc:;;'.......''..                                                                                  
+                   .'..   .,lollodkO00Okxdddooodddol:;,;;:,'...                                                                                       
+                          .';cllodddddddoolllccccc::;,,;;;::cc,.                                                                                      
+                             ....,coooddoollccc::::;;,,;,,,;:ll'.                                                                                     
+                                  .,coodddoolllccc:::;;;,...;llc,..                                                                                   
+                                    .'coodoollllccc::;;,''.,cooooc,..                                                                                 
+                                      .,coooollcccc::;,''';;:c:;::,...                                                                                
+                                       ..;looollccc:;;;;;:;,,,'..',..                                                                                 
+                                         ..;lolllc::::clloolc;'........                                                                               
+                                           .:oollcc:;;::cloddolc:,'........                                                                           
+                                           .'coollc:;,,,,,;cccodol:,............                                                                      
+                                            .'clllcc:;;,''''..,cc;;,'..............                                                                   
+                                              .';;,;:::;,,'.....'..''''...............                                                                
+                                                 . .,::::;;,''........''''''...........                                                               
+                                                     .';::;;;,,''........'''''''...............                                                       
+                                                       ..,;;;;;,,,,'''''''''''''''''''''..........                                                    
+                                                         ...',,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''......                                                  
+                                                            .....'''',,,,,,,,,,,;;;;;;;;;;;;,,,''''....                                               
+                                                               ........'''''',,,,,,,;;;;;;;:::;;;,,,''....                                            
+                                                                    ...........'''''',,,,,,;;;;;;;;;;,,'.....                                         
+                                                                          .............'''''',,,,,;;;;;;,,'.....                                      
+                                                                                  .............'''',,,;;;;;,,''...                                    
+                                                                                           ...........''',;;;;;;,...                                  
+                                                                                                   ........',,;;;,'..                                 
+                                                                                                        ............                      
+        """)
+
         loop2 = 1
 
         
@@ -332,6 +466,40 @@ while loop  < 2: # Loop to keep the program running
         print(copper_axolotl.characteristics)
     
         time.sleep(1)
+
+        print("""
+                                             ..''....                                      ...',;:lc,...                                               
+                                            .,;:clc;.  ...                                ...',;:cl:'..                                               
+                                            .,:ldxdl;''..'.                            .......',;:lc;''.                                              
+                                        ......';clooc:'..,.                            ....'',,,;;cc:;;'...                                           
+                                         ......';:lolc,..'..                          .......',,;;:llc,....                                           
+                                         .......';:cll:,'''...                       ...',;;;;;;;,;cll;','.                                           
+                                        .........',;clc:,,'''..                      ...',;;;;;;;,,;clc:,.                                            
+                                        .........',,;cc:,'.',,..                        ..,;;,,,,,,,;coc'.....         .'...                          
+                                           ......'',;::;,',;;'.                        ...',;;;;;,,,,:llc;,..  ..   ..,lolc;.                         
+                                               ...,,,:c:;,'...                          ....',,;;;;,,;:ll:'......  .';:oxkxc'.'.                      
+                                             ....',,;:c:'.....                       .........',,,,,,,;cll:;,'..  ..';ccokkdc::,.                     
+                             .....''............',;;:cl:,''''........',;;:cclllloooolcccc:;'......',,;;:lol;'......'.',:lxkxdc;'..                    
+                          ...';;;;:c:,..........';:cllol;...';:cloxk0000KXNNNNXNWWWWWNXKK00kdlc:;,,,;::clooc;,;,'';;;;,,ldddo:'...                    
+                          ..,,;;::clol'    .....':lodxxdc,;cdkOOOO00KKKKXNNWWNNNNNWWWWNXK0OOOOOOOkdlccclloddc,''.';:;;,;lddol:'....                   
+                         ..',,;;;:lood:... .....,cdxO000OO0K0000OOOO0KK000KXXXXXKKXXKKKXX0OO000KKKKK0Okxxxxxl,....';;;,:dxddoc'.....                  
+                           ....',:loodd;. .....';ok0KKXXK0kooxKNXK0K0OkkOOOOO0000KXKOOO0OOkO0KXWNOolxKXXK000kc,'...,;;:okOkkdc'''''..                 
+                             ...';:cldxd,.  ..',lkKXXNXXKk:',lONXK000OO0K0OOOkO00XKOxxkkOOOOO0KXKk:':kKNNXXXKko:,'''';oO0OOko:'''''..                 
+                       .... . ...';cldxkd;..':oOKXXXK0XXKkc,:dkxoodxkO0K00000kOKKK0kxkkkOOOkkxooddl:lOXNXK0KXXX0ko:,:dOOOOkdc,''''....                
+                       ...  .....',:loxxOOkxk0XNNXKKKKKkxxocccc:coxOO0KXKO000O0XXK0OO0OO0KK0OkdolclloxkOKXK000KXXXK000Okxxoc;,,,,,,''.                
+                .   ...............';lodxOKNNNXXXKKKK0OkxolcccloxkO00O0K000OO00KKK0O00OOO0OOOkOOxdoooodkO0KK00OKNNNK0kxdoc:,',,,;:ccc:;,..            
+              ..',;;;,,'''..........';codkOKNX00XKK0kxxxkxdxkxxkkOkkkkkkkkkOOOO000OOOOkkxxkxxxxkxxxkxddkOkxdkKKXXXXKkdol:,...,;;:lodxxdol:,'..        
+           ..';;:::cllolc::;,'',,'....,:cok0000K00OkxddxxkkOkkkkxxddddoooddddddddddddoooooodddxxxkkOkkkOOkdoodOXXXKKkl:,..'..;ldddddolc:::;,..        
+          ..',,,,'',,;cllooolc::;'.....',lkOk0K0kxxddxxkkkxxxxxxddooolllllccclllllccccllllloodddxxxxxxkkkkxollxKXXXX0d:,',clloddolc:;,,'''....        
+          ...''.......',::loddoolc;,,,,:okOOOOOkdolodxxxxdddoooooollllcccccccccccccccccccccllllooooooddddddolldO00KK0Okxdxxkxdolc;,'';,...            
+           .............',;clooddddddddxkxxkkxxdoollolllllllcc:::::::::::;;;;;;:::;;;;::;;;::::::ccccccclllllldxkkOOxxxxxxxxdoc:,'......              
+               .. ........'',;cloddxddooollddolllccc:;;;::::;;;;;;;;,,,,,,,,,,,,,,,,;;;,,,,;;;;;;;;;;,,;:::cclllodxdoooooollc;,'......                
+                   ..........',;;:cclllllc:clcc:::;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;::cccclllc:ccc:;,''......                  
+                    ..........''',;;;;;;;,,,;;;;;;,,,,,'''''''''''',,,,,,,,,,,,,,,,,,,,,,,,,,,,,''''',,,,;;;:::;;::,'''''',,'.....                    
+                     ..........''''''........'',,,,'''''....'''''''''''''''''''''''''''''''''''''''''''',,,,,;,,,,'.......'''.....                    
+                       ........................'''''......................''''''''''''''''..........''''''''''''..................                    
+                           ..........'''...................................................................................... ...                    
+        """)
 
         loop2 = 1
 
@@ -354,6 +522,47 @@ while loop  < 2: # Loop to keep the program running
 
         time.sleep(1)
 
+        print("""
+                                                                                              ...                                                            
+                                                                                   .,codo;'..                                                         
+                                                     ...                        .;oxO00xol:;,.                                                        
+                                                  .,;::'.                    .,lxO00000kocc::;.                                                       
+                                       ...        ':ooc;;'             ..';:cdO0000OO0Oxlcc::lool:,'.                                                 
+                                     .,,.        .,lxdc;;,.      .;lllodxkOOOOOkkOOO00OxlccccldkOOOkdl;...                                            
+                                  ..;:c;'.       .:ddo:,,'.      .cxkO000OkkkkkkOO0KKK0koccllodOKKK00kxoc,.                                           
+                                 .':lc:,'.      .,cool;,,.        ;xO000OkkkkkOO0KKKKKKOdcclllokKXXK0xlcloo:.                                         
+                                 ':ll:;'.       .;clc:,',..       ,dOOOkkkOOOO00KKKKKK0xlccllodxOXXKkl::cokOd;.                                       
+                                .,cll:,.        .:cc:;'''.        'okkxxkOO000KKKKKXKK0xc::cccldOXNKkl:clokKKOo,.                                     
+                                .;lol:'.        'cc::,''.         ,oxkkOOO000KKKXXXXXKOdc;:cllookXNN0l;:cloOXKKOo;'..                                 
+                                .;lloc'..      .;c::;'...      .,cdkOOOO00000KKKXXXXXK0dc;:cloddOXNXx:;:cldOKXXXK0xc;,,....                           
+                                .;clll;'.      .:c:;,....   .,ldxkOOOOOOOOO0000KKXXNXKOo:;;:codxOXN0l,,:lokKXXXXXXKOdcccc::;,'..                      
+                                 .:ccc:'..     .:c:;,.....'cdxkOOO0000OOOOOOkkO00KXNNKkc;,,:lodk0NXx;,;coxkKXNNNNXXX0xolllllllc:;'.                   
+                                 .'::::,...    .col:;,,:coxkOOO00000000OOOkkkkkkO0KXXOo:,',:lodkKKx:,,;lodx0XXNNNNNNX0xddddddooollc,...               
+                                  .,::;,....   ,oxkxxxkkkOOO000000000000OOOOOkkkkOOOOdc;,,;lddxkOx:'',:oddxOKNNNNNNNNX0kkkkkkkxxxddlcc:'.             
+                          ...      .,;;,'.....:okkkOOOOOOOO0000000OOOOOOOOOOOOOOOOkkxdo:,,:dkkkxl;',;:ldddk0XNNNNNNNNNK000000000OOkkxdl,'.            
+                          .,'..     .',;;;;;coxkkkOOOOOOOOOOO00000OOOOOOOOOOOO00OOOkxxdoc:codoc;''',coddxk0XXXNNNNNNNNXK000O00OOOkxxxdl:;'.           
+                           ','...     .';codxkkkkOOOOOOOOOOOOOOO0OOOkkkkkkOOOOO0OOOkxxdolc:;,'....,:odddxk0KXXNNNNNNNNX0xddoooollcccc;'';,.           
+                            .,,'...    .;oxkkkkOOOOOOOOOOOOOOOOOOkkkkkkkkkOOOOOOOOOkkxdol:,.....';clodolloxO0KXNNNNNNNXOocccc::::;'..   ...           
+                             .','.... .;oxkkkkOOOOOOOOOOOOOOOOOOOkkkkkkkxxkOOO0OOOOOkxxdoc,...,:llollc:clodOKXXXNNNNXX0xc:;;,,'...                    
+                               .',,'',coxkkOkkkkkkOOOOOOOkkkkkkkkkkkkkkkkkkOO00000OOOOkxdl,,;clddoc:::clodk0XNNXNNXXK0Ol'...                          
+                                .',;codxkkkkkkkkkkOOOOkkkkkxxxkkkkkkkkkkkkOOOO0000000OOkdl:;:cc:,,,,:codxOKXNNNXXXXKK0x,              .....           
+                                 ..:odxxkkkkkkkkkkkkkkkkkkkxxxxkkkxxxxkkkkkOOOOOOOO000Oxo:,..'''',;:ldkO0KXXNNXXXXXK0Ol.           .':lollc:;,'....   
+                                 .;ldxxxxkkkkkkkkkkkkkkkkkxxxxxxxxxxxxxxxxkkkkkkOOO000Okl,....',;cldxkKXXXXXNNXXXXKK0k:.        .,coddol:;,......     
+                                .:ooodddxxkkkkkkkkkkkkxxxxxxxxxdddxxxxxxxkkkkOOOO00000Okc...,;coxxxkO0KXXXXXXXXKKK00Odlcc::;;;:codddddl:,'..          
+                               .,;,:lodddxxkkkkkkkxxxxxddooodxdoodddxxxxxkkkOOO0000OOOOxl::cloxkOOO000KXXXKXXK00OOkdl;;::cccclllloooddollcc:;,''...   
+                          ...,:c:,;odxxxxkkkkkkkkkkkxxol:'..;odolloddddddxxkkkOO00OOOOkdlcoddkO00KKK00KKKKKK00Okxoc,....'',,,;;:::cccc:,..........    
+                         ..,;::loddxkkxxkkkkkkkkkkkkxol:,.. .ldlclooddddxxxxxkOOO00OOOkdlclodxkkOOOOO00K0000Okxo:'.   ......''',,,;;:::;,''...        
+                       .',;;::coddxkkxxxkkxxxkkkxxxxdlcc::;;cooooooodddddxxxxkkOOO00OOxol:;;::cllooddxkkOO0Oko:..            ........... ....         
+                    ......,;cloddxkkkkxxxxxxxkkxxxddollllooddxxxxxxxxxddddddxxkkOOOOOkdl:,'''',,;;;;:ccodxkkkd:..                                     
+                      ..,cllllodxxkkkkxxxxdxxxxxddoooooodddxkkkOkkkkxxddooodddxxkkkkxoll:,'',,,,,''''',,;clodxkxo;.                                   
+               .....';:clcc:;;codxxxxxxxxdooddooooooooooddxxkkOOOkxddoooloodddddddolccc::;;:::;;,,'......,;:lodxkko,.                                 
+....'....'',;;::::cclcc:;,,'...':looollllllcccccclooooodddxxkkkxdoooooolllllllcc:;;,,,,,,,,''.....       ..,:cldxxkxo,.                               
+    ..,:::::::;;;,;::;'....     .':ccclccc:::::::cccllloooooollccccc:c:::;;,,'..                           .';:lodxxxdl;'..                           
+      ...         ...             ..',;::c::::cccc:ccccccccc::::;;;,,'....                                  .';:cloddooooolc;,....                    
+                                       ...',,;;;;;;;;;;;;;,,,'......                                      ..',;;,,;cl:,,,,:ccc::;,'.                  
+                                             ..............                                                        ...      .......                
+        """)
+
         loop2 = 1
 
         
@@ -374,6 +583,51 @@ while loop  < 2: # Loop to keep the program running
 
         time.sleep(1)
 
+        print("""
+                                                      ,loc.                                                                                            
+                                                    .:oddl:'.                                                                                         
+                                                    .:loddoc;..                                                                                       
+                                                     '::clllcc;,..                                                                                    
+                                                      ';;:cllc:;,,'.                                                                                  
+                                                       ',;:::cc:,,''..                                                                                
+                                                        .,;;::::;,,,,,.                                                                               
+                                                         .',;;;:::;;;:;.                                                                              
+                                                          .',;::::cc:::,'.                                                                            
+                                                           .';:ccclllc::::;'.                                                                         
+                                                            .,;cllloolllodol;                                                                         
+                                                             .,clloodddddoolc,.                                                                       
+                                                              .;ldodxkkxdooooo:.                                                                      
+                                                               'cdxxkkkkxdxxxxo.                                                                      
+                                                                ,oxkkkkOOkxxxxdc.                                                                     
+                                                                .:xkkkOOOOkkxxxdc.                                                                    
+                                                                 .lkkkOOOOOOkxxddc.                                                                   
+                                                                  'dOOOOOOOOOOkxddc.                                                                  
+                                                                  .lOOkkkOO0OOOkxxdl.                                                                 
+                                                                   ,xkkkkOO000OOOkxdl.                                                                
+                                                        ...',;;;,,,cxkkOOOOO0OOOOOkxdc.                                                               
+                                                      .,ldxkkxxxxdddodk000OOOOOOOOOkxoc.                                                              
+                                                      ..';ooll,...',:dO000OOOOOkOOkkkxdl'                                                             
+                                                         .. ..      .:k0OOOOOOOkkxxxxxxdl,                                                            
+                                                                     .:kOOOOOOkkxddddxxocl:.                                                          
+                                                                       ;xOOOOkxxdolooddl,,ll,.                                                        
+                                                                        ,dkkkkdoollcllc:'.;ooc,..                                                     
+                                                                         .lkOkddocclc:;...'clloc,.                                                    
+                                                                          .'ckkxollc::,....:lllol:....                                                
+                                                                             ;dxxocc:;,...'cooooool:,.                                                
+                                                                              .cxxdl:,'...,:coolclooc,                                                
+                                                                                'cddoc,...,::ccccllclc;.                                              
+                                                                                  ,do:;,'';ccccccc:::::,.                                             
+                                                                                 .:l;'';:colcc:::;,,,;;;,.                                            
+                                                                                .:c'.   .';loc::;;:;,,,;;,.                                           
+                                                                               .;:.        .,coolcccc:;,;;'                                           
+                                                                              .,;'.          .colccllc:;;,.                                           
+                                                                             .,;,.            .;'.........                                            
+                                                                          ...,;,,.            .,.                                                     
+                                                                           ..'','.             ..                                                     
+                                                                          .... ..              ..                                                     
+
+        """)
+
         loop2 = 1
         
 
@@ -392,6 +646,44 @@ while loop  < 2: # Loop to keep the program running
         print(Wild_type_axolotl.characteristics)
 
         time.sleep(1)
+
+        print("""
+                                                                                                                                                             
+                                                                                                                                                      
+                                                                                                                                                      
+                                                                                                               ..............                         
+                                                                                                        ...............'''',,,'.........    .         
+                                                                                                    .........'''''',,,;;;:::ccccccc:::::::;;,,'.      
+                                                                                                  ..'''''',,,;;::ccllooddddoooolllccc::::;;,'...      
+                                                                                                ..,,,,,;::cclooddddddoollcc::;,,,''.......            
+                                                                                              .',,;;:clloddddddoolcc:;;,''......                      
+                                                                                             .,;::clooddddoollc:;,'.....                              
+                                                                                          ..,;:cloodddoollcc;,'...                                    
+                                                                                        ..,;:clooddoollc:;,..                                         
+                                                                                       .,;clooddoollc:;'.                                             
+                                                                                    ..,:clodddoolcc:;.                                                
+                                                                ..                .':cloddddoolc::;'.                                                 
+                                                             ..,.               .;coodddddollc:;;'.       ....                                        
+                                                            .,,.            ..,codddxddoolc:;;;;,'.....','''...                                       
+                                                           .,,;,...     .':clodxxxxddolcc:;,,,,'''',,,''...'..                                        
+                                                          ':cccc:,'..';lodxxxxxxddolcc:;;,'''..             .                                         
+                                                       ..:odoc::cldddxxxxxxdddoolcc:;,,'''''.                                                         
+                                                    .':lddxxdddxxkkxxxxddoollcc:;;,,''''',..                                                          
+                                                  .;ldxxxkkkkkkkkkxxddollc:::;,,'''''',,'.                                                            
+                                               .'cdxxxxxkkkkkkkxxddolcc::;::;;,,,,',,,..                                                              
+                                             .,lxkkkkxxxxkkkkkxxddolc::cccccc::::;,'.                                                                 
+                                           .,lxkkkkkkkxxxxxxxxxxxxxdoolcc::::cc:,.                                                                    
+                                         .;oxkkkkkkkkxxdddddooddooollcc:::cccc:,.                                                                     
+                                        ,dxxkkkkkkxxxdddoollllllllcc:::::::::::;'.                                                                    
+                                       ,xkkkkkkkxxxddddoollllcclllc::;;;,'...','..                                                                    
+                                       ;xkkkxxxxxddddoooollllllllc;,''...                                                                             
+                                       .;dkkkxxddooooooooooolllc;.                                                                                    
+                                         .:dxxxxdddddddoooooc;'.                                                                                      
+                                           .';cloooolllcc:;'.                                                                                         
+                                                ......                                                                                                
+                                                                                                                                                      
+                                                                                          
+        """)
 
         loop2 = 1
 
@@ -412,6 +704,44 @@ while loop  < 2: # Loop to keep the program running
 
         time.sleep(1)
 
+        print("""
+                                         .....                                                                                                        
+                                ..,'.  ..;::,.                                                                                                        
+                               .,cc;...,;;,'..                                                                                                        
+                               .;:;,',;;'''..            ..''...                                                                                      
+                               .;::,,;;,''''',,,,,'.  ..,,:c:;'.                                                                                      
+                              ..;:ccldxdddxk000OOOxl;';:;,;;;,..                                                                                      
+                      ..    ....,:lk00KKKXXXKKKK00OOkkxd:,'',;;,..                                                                                    
+                 ..'..,c,. .'cc;;cx00KKXXXXKKKK00OOkkkkxl'.........                                                                                   
+                 ..;loxOOl;,;clccd0KK0KXXKKKK00OOkkxxddo:.........                                                                                    
+                ..':okO0K00Okkkxdk0K0O0XKKK000Oxlloooolc,.....','...                                                                                  
+                ...'col:::loooodxk0KKKK00OOkkkxdloooc:;;'.......''..                                                                                  
+                   .'..   .,lollodkO00Okxdddooodddol:;,;;:,'...                                                                                       
+                          .';cllodddddddoolllccccc::;,,;;;::cc,.                                                                                      
+                             ....,coooddoollccc::::;;,,;,,,;:ll'.                                                                                     
+                                  .,coodddoolllccc:::;;;,...;llc,..                                                                                   
+                                    .'coodoollllccc::;;,''.,cooooc,..                                                                                 
+                                      .,coooollcccc::;,''';;:c:;::,...                                                                                
+                                       ..;looollccc:;;;;;:;,,,'..',..                                                                                 
+                                         ..;lolllc::::clloolc;'........                                                                               
+                                           .:oollcc:;;::cloddolc:,'........                                                                           
+                                           .'coollc:;,,,,,;cccodol:,............                                                                      
+                                            .'clllcc:;;,''''..,cc;;,'..............                                                                   
+                                              .';;,;:::;,,'.....'..''''...............                                                                
+                                                 . .,::::;;,''........''''''...........                                                               
+                                                     .';::;;;,,''........'''''''...............                                                       
+                                                       ..,;;;;;,,,,'''''''''''''''''''''..........                                                    
+                                                         ...',,,,,,,,,,,,,,,,,,,,,,,,,,,,'''''......                                                  
+                                                            .....'''',,,,,,,,,,,;;;;;;;;;;;;,,,''''....                                               
+                                                               ........'''''',,,,,,,;;;;;;;:::;;;,,,''....                                            
+                                                                    ...........'''''',,,,,,;;;;;;;;;;,,'.....                                         
+                                                                          .............'''''',,,,,;;;;;;,,'.....                                      
+                                                                                  .............'''',,,;;;;;,,''...                                    
+                                                                                           ...........''',;;;;;;,...                                  
+                                                                                                   ........',,;;;,'..                                 
+                                                                                                        ............                      
+        """)
+
         loop2 = 1
     
     elif user_choice == "10": # If the user chooses the Axanthic axolotl
@@ -429,6 +759,33 @@ while loop  < 2: # Loop to keep the program running
         print(Axanthic_axolotl.characteristics)
 
         time.sleep(1)
+
+        print("""
+                                                                       .,c;..                                                                         
+                               .'                                      ,okdlc,.                                                                       
+                           .,;,;oc.                                    .:k00O;                                                                        
+                          ..;dOO00x:'    .                              .l0KO;                                                                        
+                          ...;codddkOd;'co,                             .l0KO:                                                                        
+                                .clokOxodd,                             .dKKk,                                                                        
+                          ..... 'lolollodd:.                            .dKKO:                                                                        
+                    ..,:ldxxkkxxxkkxdllodkOo.  ....',,;:;;:;'....       .oKKKx.                                                                       
+                .;cdxO00KKKKKKKKKK00OxdxxkOkdoxkkO0KXXXXXXXXKK0Okxoc:;,..l0XK0o.                                                                      
+             .,lxxxkO0KKXXXXKXXXXNNNXKKKKKXXXNNNNNWNWWWNNWWWNNNNNNNNNXXK00KXKK0Oxdoc:;,'....                                                          
+            'lkOOxdO0KXXXXNNNNNNWWWWWWWWWWWWWWWMMWWMMWWWWWWWWWWWWWWWWWNNNNNNXXXXXKKK00OOkkxdollcc:;;,,,''.....                                        
+           .lO000000KXNWWWWWWWWMMMMMMWWMMWWMMWWWWWWWWWWWWWWWNNNNNNNNNNNXXXXXXKKKK000OOOkkxxxxxxxxxxxxxxddddoollcccc:;;,,''......                      
+           'dkO000KKXNWWWWWWWWWWWWWWWWWWWNNNNNNNNNNNNNNNNNXXXXXXXXXXXXKKKKK0000OOkkkkxxxddoolllllcc::::;;;;:cccc:;,,,,;;:c:;,,,''........             
+           .okOOO00KXXNNNNNNWWWWWWWWWWWNNNNNNNNNWWNNNNNNNNNNNNNNNNNXXXXXXKKKK0Okxdolc:;,'.......                                                      
+            ;dkkOOOO00KKXXXNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXKKKK00OOkxddoodxxdc'...                                                                   
+             'coxdddkOO00000KKKKKKXXX0kxddddddddddddxxdddollc:;,'....    .lkkd,                                                                       
+               .,:cldxkkkkkkkOOO0000Okolc::;;............                .d00x'                                                                       
+                  ..';clodxxddddxxxxdoc:ccc;'.                           .o00x'                                                                       
+                        .........,:c:::;;;;,..                            ckOOc                                                                       
+                                 '::cc:;:;,.                             .ckOOl.                                                                      
+                                .:cloc..':;'.                           .:xkkx;                                                                       
+                               .;ccl,   ..'.                            .codc'..                                                                      
+                               .'...                                    ..,:'                                                                         
+                                                                           .    
+        """)
 
         loop2 = 1
 
@@ -448,6 +805,50 @@ while loop  < 2: # Loop to keep the program running
     
         time.sleep(1)
 
+        print("""
+                                                              ,loc.                                                                                            
+                                                    .:oddl:'.                                                                                         
+                                                    .:loddoc;..                                                                                       
+                                                     '::clllcc;,..                                                                                    
+                                                      ';;:cllc:;,,'.                                                                                  
+                                                       ',;:::cc:,,''..                                                                                
+                                                        .,;;::::;,,,,,.                                                                               
+                                                         .',;;;:::;;;:;.                                                                              
+                                                          .',;::::cc:::,'.                                                                            
+                                                           .';:ccclllc::::;'.                                                                         
+                                                            .,;cllloolllodol;                                                                         
+                                                             .,clloodddddoolc,.                                                                       
+                                                              .;ldodxkkxdooooo:.                                                                      
+                                                               'cdxxkkkkxdxxxxo.                                                                      
+                                                                ,oxkkkkOOkxxxxdc.                                                                     
+                                                                .:xkkkOOOOkkxxxdc.                                                                    
+                                                                 .lkkkOOOOOOkxxddc.                                                                   
+                                                                  'dOOOOOOOOOOkxddc.                                                                  
+                                                                  .lOOkkkOO0OOOkxxdl.                                                                 
+                                                                   ,xkkkkOO000OOOkxdl.                                                                
+                                                        ...',;;;,,,cxkkOOOOO0OOOOOkxdc.                                                               
+                                                      .,ldxkkxxxxdddodk000OOOOOOOOOkxoc.                                                              
+                                                      ..';ooll,...',:dO000OOOOOkOOkkkxdl'                                                             
+                                                         .. ..      .:k0OOOOOOOkkxxxxxxdl,                                                            
+                                                                     .:kOOOOOOkkxddddxxocl:.                                                          
+                                                                       ;xOOOOkxxdolooddl,,ll,.                                                        
+                                                                        ,dkkkkdoollcllc:'.;ooc,..                                                     
+                                                                         .lkOkddocclc:;...'clloc,.                                                    
+                                                                          .'ckkxollc::,....:lllol:....                                                
+                                                                             ;dxxocc:;,...'cooooool:,.                                                
+                                                                              .cxxdl:,'...,:coolclooc,                                                
+                                                                                'cddoc,...,::ccccllclc;.                                              
+                                                                                  ,do:;,'';ccccccc:::::,.                                             
+                                                                                 .:l;'';:colcc:::;,,,;;;,.                                            
+                                                                                .:c'.   .';loc::;;:;,,,;;,.                                           
+                                                                               .;:.        .,coolcccc:;,;;'                                           
+                                                                              .,;'.          .colccllc:;;,.                                           
+                                                                             .,;,.            .;'.........                                            
+                                                                          ...,;,,.            .,.                                                     
+                                                                           ..'','.             ..                                                     
+                                                                          .... ..              ..    
+        """)
+
         loop2 = 1
 
     elif user_choice == "12": # If the user chooses the Enigma axolotl
@@ -464,8 +865,39 @@ while loop  < 2: # Loop to keep the program running
 
         print( Enigma_axolotl.characteristics)
 
-        
         time.sleep(1)
+
+        print("""
+                                                                                       .. ...               ....                                                   
+                                                                         .....'...'.          ..'''''''''''....                                       
+                                                                         ..'','',,'..      ....'',,,,;;;;::::::;.                                     
+                                                                         ...''''''....  .......',,,,;;;;;;::::ccc,                                    
+                                                                          ....''..............'',,,,,,,;;;;;;:::cc,.                                  
+                                                                          .................''''''''',,;;;;;::::::cc:.                                 
+                                                                   ... .. ....... .........'''''',,,,,;;;;;:::::cccc,                                 
+                                                              .. ..............   ...........''',,,,,,;;;;;;::::cccc;.                                
+                                                              ...............     ...........'''',,,,,,;;;;;::::cllc,''..                             
+                                                                ...............   ..........'''''',,,,,;;;;;:::cclc;',,'''.                           
+                                                        .....'',,;;;;;;'......     ..........''''',,,,,,;;;::::::;,'''','.                            
+                                                 ...',;:cloooooooooolc:,.......     ...........'''''',,,,;;;,'........''..                            
+                                         ...',;:cclooddxxxxkkkkkkxol:;'........     ............'''''',,,,..                                          
+                                .....',;:ccclllooddxxkkOOOOOOOkxdc:;,'....................''''''',,,,,;:::'.                                          
+                      .....''',,;;:::::ccllooddxxkkOOOOkkkkkkxdoc;,'.........  ......''''''''',,,,,;;;:ccllc,.                                        
+              ....',,;;;;;;;;:::::cccllooddxxkkkkkkkkkxxxxxxxdl:;,'................'',,''''''',,,;;;;:cclloodo;.                                      
+         ..'',;:::::::ccccccllloooooodddddxxxxxxxxxxxxxddddddoc;,''...............',,,'''''',,,,;;;::::;';lodxdc.                                     
+      ..;:::ccclllllllllllllloooooooooooddddddddxxxxddddddoool:,'''..............',,,''.'''',,,,;;;::;'   .:odxxl.                                    
+       ..',;:::ccccllllllllllllllllooooooooddddddddddddddddool:,''..............'',,,''''''',,,;;;;;'.     .;odxd:.                                   
+           ..',,;;;::::::cccccclllllllooooooddddddddddddddoool:,''..............',,;;,'''''',,,,,'.         .:oddo,                                   
+               ...',,,;;;;;;;;;;;:::::cccccllloooooooooooollc:,,''...............,;;;;,''''.....             'clooc.                                  
+                     .....''''',,,,,,,,,,,,,,,;;;;;;;,,,'',;;,,,'..  .....,,,,,'.';:::;'.                    .;::ll;.                                 
+                                   ....          .........';;;,..        .:looo:..';;;;;'.                   ....,,''.                                
+                                                   .;ccc::;,'..          .;lodo;......,....                      ..  .                                
+                                                  .':lollc'.            .:lool;. .    ..                                                              
+                                                   ..;l:;;.            'cl:;,.                                                                        
+                                                     ..              .':c,.                                                                           
+                                                                     ..'.                                                                             
+                                                                      .        
+        """)
 
         loop2 = 1
 
@@ -481,9 +913,42 @@ while loop  < 2: # Loop to keep the program running
 
         Firefly_axolotl = axolotl("Firefly Axolotl")
 
-        print( Firefly_axolotl.characteristics)
+        print( Firefly_axolotl.characteristics, "have a dramatic contrast in coloration, typically with a dark or black head and upper body, and a bright fluorescent green tail, mimicking bioluminescence through GFP genes")
       
         time.sleep(1)
+
+        print("""
+                                                                                                                                                                     
+                                                                                                       ....''...........''...........                 
+                                                                                                  ...,,;;;;;;;,,,,,;;;;;;,,,,,''''''''.....           
+                                                                                            ...',;:::::::::::::::::::::::::;;;;;;;;;,,'''......       
+                                                                                       ..',;::ccccccccccllllcclllllllllllllllllccccc::;,,,,,''''..    
+                                                                                   .';:ccccccllllllllooodddddddddddddddooooollllcccc:::;;;;;;;;,,'.   
+                                                                              ..,;clllllllooooooddddxxxxxkkxxxxxxdddoooolllccccc:::::;;;;;;,,,'..     
+                                                                        ..,;;clooooodddddddxxxxxxkkkkkkkxxxxxxddddoolllllcccc::::;;;;,,,,''...        
+                                                                   ..,;clodddddddxxxxxxxkkkkkkkkkkkkxxxxxxxxdddoooolllllccccc:::;;;;;,'...            
+                                                               .';coddxxxxkkkkkkkOOOOOOOOOOOkkkkkkkxxxxdddddddoooolllllcccc:::;,,'....                
+                                 ...                      .';coxxkkkOOOO0000000000000000OOOOkkkkxxxxxxddddddooooolllcc::;,,'...                       
+                               .,lc.                 .';coxkOO00000KKKKKKKKKKKKKKKKK0000OOOkkkkxxxxxddddoooooollc:;,....                              
+                              ,oo;.            ...,cdkO0KKKKKXXXXXXXXXXXXXXKKKKK000000OOOkkkkkxxxxdddooooolllc:,..                                    
+                             'kOl.        ..,:okkO0XXXXNNNNNNNNNNNXXXXXXXKKKKK000OOO0OOkkkkxxxddddoooolllc:,'.                                        
+                      .;;.  .oK0d;,;:lodxO0KNNX0O0XNWWWWWNNNNNNNNXXXXXKKKK000OOOkkkkkkkkkxxddddoooollc:,..                                            
+                      'x0dldONNNNXNNWWWWWWWWNX0kk0NWWWWWNNNNNNNXXXKKKK0000OOOkkxddddxxxxxddddoollc;,..                                                
+                  .,ldOXWWWWWWWWWWWWWWWWWWWNX0kxOXNNWNNNNNXXXXXXKK00OOOOkkkkkkxdollodxkkkkkxxxxo:,......                                              
+               .,o0NWWWWWWWWWWWWWWWWWWWWWWNXOxdkKXXNNXXXXXKKKKK00OOkkkkxkxxxxxdo::coxO0KKKKKKKK0Okkxxxl;.                                             
+             .lOXWWWWWWWWWWWWWWWWWWWWWWWWWNKxodOKXXK0KKKK00000OOkkkxxddxxxxdxdoc,;clodxkkOO000K0000Okdl;.                                             
+          .:dKNWWWWWWWWWWWWWWWWWWWWWWWWNNXXKOO0KK0OkkkOOOOOOOkkkxxdoooodddddddoc;;;::;,'.',;coxO0KOc..                                                
+        'd0NWWWWWWWWWWWWWWWWWWWWWWWWNNXXK0Oddxkkxdooxxxxkkkkxxxdoollllooooooolc:,....        ..:kOxl'                                                 
+      .c0NWWWWWWWN0OKNNWNNNWWWNNNXXXKK0Okkxl::cclooodddxdddooollccccclllc;,'...                'od;..                                                 
+     ,OXNNNNNNNNX0olkXNNNNNNNXXXKK0Okxdllk00kxdoodxO000Okkdlc::::::::;'.                       ....                                                   
+     :0XXXXXKKKKKK00KXNXXXKKKKKK00OOxoc;cxOOkxxkO0KXXXXXNNX0kdl;'...                                                                                  
+      'coxxxkkkOOO0000000OOkkkkxxdddoc;,;clldkkkxddooodkO0KXXX0xc'...                                                                                 
+         ...',:clloddddooooolllllcc::;,,,,;;:cc:;,'.....,cdk000000xc'                                                                                 
+                  .....'',,,,''''''......''''...          .,:odxO0o.                                                                                  
+                                                             ..:x00o.                                                                                 
+                                                                .lxl.                                                                                 
+                                                                 .'.  
+        """)
 
         loop2 = 1
 
@@ -499,9 +964,44 @@ while loop  < 2: # Loop to keep the program running
 
         Mosaic_axolotl = axolotl("Mosaic axolotl")
 
-        print(Mosaic_axolotl.characteristics)
+        print(Mosaic_axolotl.characteristics,"have a patchwork appearance due to a mix of different colors or patterns across their bodies")
 
         time.sleep(1)
+
+        print("""
+        
+                                             ..''....                                      ...',;:lc,...                                               
+                                            .,;:clc;.  ...                                ...',;:cl:'..                                               
+                                            .,:ldxdl;''..'.                            .......',;:lc;''.                                              
+                                        ......';clooc:'..,.                            ....'',,,;;cc:;;'...                                           
+                                         ......';:lolc,..'..                          .......',,;;:llc,....                                           
+                                         .......';:cll:,'''...                       ...',;;;;;;;,;cll;','.                                           
+                                        .........',;clc:,,'''..                      ...',;;;;;;;,,;clc:,.                                            
+                                        .........',,;cc:,'.',,..                        ..,;;,,,,,,,;coc'.....         .'...                          
+                                           ......'',;::;,',;;'.                        ...',;;;;;,,,,:llc;,..  ..   ..,lolc;.                         
+                                               ...,,,:c:;,'...                          ....',,;;;;,,;:ll:'......  .';:oxkxc'.'.                      
+                                             ....',,;:c:'.....                       .........',,,,,,,;cll:;,'..  ..';ccokkdc::,.                     
+                             .....''............',;;:cl:,''''........',;;:cclllloooolcccc:;'......',,;;:lol;'......'.',:lxkxdc;'..                    
+                          ...';;;;:c:,..........';:cllol;...';:cloxk0000KXNNNNXNWWWWWNXKK00kdlc:;,,,;::clooc;,;,'';;;;,,ldddo:'...                    
+                          ..,,;;::clol'    .....':lodxxdc,;cdkOOOO00KKKKXNNWWNNNNNWWWWNXK0OOOOOOOkdlccclloddc,''.';:;;,;lddol:'....                   
+                         ..',,;;;:lood:... .....,cdxO000OO0K0000OOOO0KK000KXXXXXKKXXKKKXX0OO000KKKKK0Okxxxxxl,....';;;,:dxddoc'.....                  
+                           ....',:loodd;. .....';ok0KKXXK0kooxKNXK0K0OkkOOOOO0000KXKOOO0OOkO0KXWNOolxKXXK000kc,'...,;;:okOkkdc'''''..                 
+                             ...';:cldxd,.  ..',lkKXXNXXKk:',lONXK000OO0K0OOOkO00XKOxxkkOOOOO0KXKk:':kKNNXXXKko:,'''';oO0OOko:'''''..                 
+                       .... . ...';cldxkd;..':oOKXXXK0XXKkc,:dkxoodxkO0K00000kOKKK0kxkkkOOOkkxooddl:lOXNXK0KXXX0ko:,:dOOOOkdc,''''....                
+                       ...  .....',:loxxOOkxk0XNNXKKKKKkxxocccc:coxOO0KXKO000O0XXK0OO0OO0KK0OkdolclloxkOKXK000KXXXK000Okxxoc;,,,,,,''.                
+                .   ...............';lodxOKNNNXXXKKKK0OkxolcccloxkO00O0K000OO00KKK0O00OOO0OOOkOOxdoooodkO0KK00OKNNNK0kxdoc:,',,,;:ccc:;,..            
+              ..',;;;,,'''..........';codkOKNX00XKK0kxxxkxdxkxxkkOkkkkkkkkkOOOO000OOOOkkxxkxxxxkxxxkxddkOkxdkKKXXXXKkdol:,...,;;:lodxxdol:,'..        
+           ..';;:::cllolc::;,'',,'....,:cok0000K00OkxddxxkkOkkkkxxddddoooddddddddddddoooooodddxxxkkOkkkOOkdoodOXXXKKkl:,..'..;ldddddolc:::;,..        
+          ..',,,,'',,;cllooolc::;'.....',lkOk0K0kxxddxxkkkxxxxxxddooolllllccclllllccccllllloodddxxxxxxkkkkxollxKXXXX0d:,',clloddolc:;,,'''....        
+          ...''.......',::loddoolc;,,,,:okOOOOOkdolodxxxxdddoooooollllcccccccccccccccccccccllllooooooddddddolldO00KK0Okxdxxkxdolc;,'';,...            
+           .............',;clooddddddddxkxxkkxxdoollolllllllcc:::::::::::;;;;;;:::;;;;::;;;::::::ccccccclllllldxkkOOxxxxxxxxdoc:,'......              
+               .. ........'',;cloddxddooollddolllccc:;;;::::;;;;;;;;,,,,,,,,,,,,,,,,;;;,,,,;;;;;;;;;;,,;:::cclllodxdoooooollc;,'......                
+                   ..........',;;:cclllllc:clcc:::;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;::cccclllc:ccc:;,''......                  
+                    ..........''',;;;;;;;,,,;;;;;;,,,,,'''''''''''',,,,,,,,,,,,,,,,,,,,,,,,,,,,,''''',,,,;;;:::;;::,'''''',,'.....                    
+                     ..........''''''........'',,,,'''''....'''''''''''''''''''''''''''''''''''''''''''',,,,,;,,,,'.......'''.....                    
+                       ........................'''''......................''''''''''''''''..........''''''''''''..................                    
+                           ..........'''...................................................................................... ...                    
+        """)
 
         loop2 = 1
 
@@ -517,13 +1017,53 @@ while loop  < 2: # Loop to keep the program running
 
         Silver_Dalmatian_axolotl = axolotl("Silver Dalmatian axolotl")
 
-        print(Silver_Dalmatian_axolotl.characteristics)
+        print(Silver_Dalmatian_axolotl.characteristics,"have pale, silvery lavender base color with dark spots or speckles, often black or dark gray")
 
         time.sleep(1)
 
+        print("""
+        
+                                                                                       ...                                                            
+                                                                                   .,codo;'..                                                         
+                                                     ...                        .;oxO00xol:;,.                                                        
+                                                  .,;::'.                    .,lxO00000kocc::;.                                                       
+                                       ...        ':ooc;;'             ..';:cdO0000OO0Oxlcc::lool:,'.                                                 
+                                     .,,.        .,lxdc;;,.      .;lllodxkOOOOOkkOOO00OxlccccldkOOOkdl;...                                            
+                                  ..;:c;'.       .:ddo:,,'.      .cxkO000OkkkkkkOO0KKK0koccllodOKKK00kxoc,.                                           
+                                 .':lc:,'.      .,cool;,,.        ;xO000OkkkkkOO0KKKKKKOdcclllokKXXK0xlcloo:.                                         
+                                 ':ll:;'.       .;clc:,',..       ,dOOOkkkOOOO00KKKKKK0xlccllodxOXXKkl::cokOd;.                                       
+                                .,cll:,.        .:cc:;'''.        'okkxxkOO000KKKKKXKK0xc::cccldOXNKkl:clokKKOo,.                                     
+                                .;lol:'.        'cc::,''.         ,oxkkOOO000KKKXXXXXKOdc;:cllookXNN0l;:cloOXKKOo;'..                                 
+                                .;lloc'..      .;c::;'...      .,cdkOOOO00000KKKXXXXXK0dc;:cloddOXNXx:;:cldOKXXXK0xc;,,....                           
+                                .;clll;'.      .:c:;,....   .,ldxkOOOOOOOOO0000KKXXNXKOo:;;:codxOXN0l,,:lokKXXXXXXKOdcccc::;,'..                      
+                                 .:ccc:'..     .:c:;,.....'cdxkOOO0000OOOOOOkkO00KXNNKkc;,,:lodk0NXx;,;coxkKXNNNNXXX0xolllllllc:;'.                   
+                                 .'::::,...    .col:;,,:coxkOOO00000000OOOkkkkkkO0KXXOo:,',:lodkKKx:,,;lodx0XXNNNNNNX0xddddddooollc,...               
+                                  .,::;,....   ,oxkxxxkkkOOO000000000000OOOOOkkkkOOOOdc;,,;lddxkOx:'',:oddxOKNNNNNNNNX0kkkkkkkxxxddlcc:'.             
+                          ...      .,;;,'.....:okkkOOOOOOOO0000000OOOOOOOOOOOOOOOOkkxdo:,,:dkkkxl;',;:ldddk0XNNNNNNNNNK000000000OOkkxdl,'.            
+                          .,'..     .',;;;;;coxkkkOOOOOOOOOOO00000OOOOOOOOOOOO00OOOkxxdoc:codoc;''',coddxk0XXXNNNNNNNNXK000O00OOOkxxxdl:;'.           
+                           ','...     .';codxkkkkOOOOOOOOOOOOOOO0OOOkkkkkkOOOOO0OOOkxxdolc:;,'....,:odddxk0KXXNNNNNNNNX0xddoooollcccc;'';,.           
+                            .,,'...    .;oxkkkkOOOOOOOOOOOOOOOOOOkkkkkkkkkOOOOOOOOOkkxdol:,.....';clodolloxO0KXNNNNNNNXOocccc::::;'..   ...           
+                             .','.... .;oxkkkkOOOOOOOOOOOOOOOOOOOkkkkkkkxxkOOO0OOOOOkxxdoc,...,:llollc:clodOKXXXNNNNXX0xc:;;,,'...                    
+                               .',,'',coxkkOkkkkkkOOOOOOOkkkkkkkkkkkkkkkkkkOO00000OOOOkxdl,,;clddoc:::clodk0XNNXNNXXK0Ol'...                          
+                                .',;codxkkkkkkkkkkOOOOkkkkkxxxkkkkkkkkkkkkOOOO0000000OOkdl:;:cc:,,,,:codxOKXNNNXXXXKK0x,              .....           
+                                 ..:odxxkkkkkkkkkkkkkkkkkkkxxxxkkkxxxxkkkkkOOOOOOOO000Oxo:,..'''',;:ldkO0KXXNNXXXXXK0Ol.           .':lollc:;,'....   
+                                 .;ldxxxxkkkkkkkkkkkkkkkkkxxxxxxxxxxxxxxxxkkkkkkOOO000Okl,....',;cldxkKXXXXXNNXXXXKK0k:.        .,coddol:;,......     
+                                .:ooodddxxkkkkkkkkkkkkxxxxxxxxxdddxxxxxxxkkkkOOOO00000Okc...,;coxxxkO0KXXXXXXXXKKK00Odlcc::;;;:codddddl:,'..          
+                               .,;,:lodddxxkkkkkkkxxxxxddooodxdoodddxxxxxkkkOOO0000OOOOxl::cloxkOOO000KXXXKXXK00OOkdl;;::cccclllloooddollcc:;,''...   
+                          ...,:c:,;odxxxxkkkkkkkkkkkxxol:'..;odolloddddddxxkkkOO00OOOOkdlcoddkO00KKK00KKKKKK00Okxoc,....'',,,;;:::cccc:,..........    
+                         ..,;::loddxkkxxkkkkkkkkkkkkxol:,.. .ldlclooddddxxxxxkOOO00OOOkdlclodxkkOOOOO00K0000Okxo:'.   ......''',,,;;:::;,''...        
+                       .',;;::coddxkkxxxkkxxxkkkxxxxdlcc::;;cooooooodddddxxxxkkOOO00OOxol:;;::cllooddxkkOO0Oko:..            ........... ....         
+                    ......,;cloddxkkkkxxxxxxxkkxxxddollllooddxxxxxxxxxddddddxxkkOOOOOkdl:,'''',,;;;;:ccodxkkkd:..                                     
+                      ..,cllllodxxkkkkxxxxdxxxxxddoooooodddxkkkOkkkkxxddooodddxxkkkkxoll:,'',,,,,''''',,;clodxkxo;.                                   
+               .....';:clcc:;;codxxxxxxxxdooddooooooooooddxxkkOOOkxddoooloodddddddolccc::;;:::;;,,'......,;:lodxkko,.                                 
+....'....'',;;::::cclcc:;,,'...':looollllllcccccclooooodddxxkkkxdoooooolllllllcc:;;,,,,,,,,''.....       ..,:cldxxkxo,.                               
+    ..,:::::::;;;,;::;'....     .':ccclccc:::::::cccllloooooollccccc:c:::;;,,'..                           .';:lodxxxdl;'..                           
+      ...         ...             ..',;::c::::cccc:ccccccccc::::;;;,,'....                                  .';:cloddooooolc;,....                    
+                                       ...',,;;;;;;;;;;;;;,,,'......                                      ..',;;,,;cl:,,,,:ccc::;,'.                  
+                                             ..............                                                        ...      .......         
+        """)
+
         loop2 = 1
-
-
 
 
     elif user_choice == "16":
@@ -541,6 +1081,47 @@ while loop  < 2: # Loop to keep the program running
         print(Salamanders.characteristics, " a group of amphibians typically characterized by a lizard-like appearance, with slender bodies, short legs, long tails, and moist, smooth skin.")
 
         time.sleep(1)
+
+        print("""
+                          ...'cdxd:.                                                                                                                   
+                          ..ckkxol;.                                                                                                                  
+                          .,oo:,'''.                                                                                                                  
+                          .,cc:;cooo:'.                                                                                                               
+                           'cloxkxdool,                                                                                                               
+                           .':llc,......,'.                                                                                                           
+                            .:cc:;,,;;;:;,'.......                                                                                                    
+                           .;oo:,:dxdl:,....,:c:;;,'..                                                                                                
+                           .:oc,:xxl:;,;;::::;'.........,;:::;,'...                                                                                   
+                           .;:';dxl;:cok0KK0xc,''''';:::,'';:::;;,'..  .                                                                              
+                            ',;dxl;:okKXXKOoc;;;:cdO0KKOc'..'''......',;;''''.                    .'                                                  
+                            .ckkc;:d0XXKkoc::;:lx0XNX0kl:;;;:loc;,,,;codddolc;'...              .lOx'..                                               
+                          .':kkc;:d0Kkdlc::c:cd0XXKko::clldOKXNKdc:;,;:ccc::::::::,         ....,clooo;.                                              
+                        .cxxxkc,,ckOo:::::::lxKX0xl:;;;ccd0NNWNOollodxxdl:;;;;;;cllc;..   .;ooc'...;oo'                                               
+                   ....:k00kd:'',o0x:;;;;;;lkKKxl::;;,,:d0XNNXOoclodkkkkkkOO0000KKK0Oo;'..';;,;,'';::;.                                               
+            .''''''''',lkxoc,...'d0kc,,,,,cxK0d:;;;;;;ckKXKOxdc::codkO0XNNNXKkxxk00Okdooooc:;,'.';lo:.. .....                                         
+          .;cc;....,::;;;'.... .'oOx:'''',o0Oo;;;;;,;ckXXkc,',,,,;:oOKXXNKkdoccldddodkOKXKOxdc::ok00x:'...''''...';;,,..                              
+     .',,,,,'.. ..:llc'.        .cdc.....;x0d;'''''';xKXx;...,,'..'l0XXX0l,''''',,;lkKXXKkdolllkKKK0o;'.'';cloodolclooddl:,.....                      
+  .':okxc'.     .,;,..           .:,.   .,xkc.......cOKO:...',,....lKXXOc........'o0XXXKkc;;;:d0KK0xl:::cdOKK00Oxoc:;;;:clooccc:'.                    
+.;cc;'..       ....            ..        ,oxl.     .cO0d'...''.....oKK0l........'oKXXXX0o;;;;:d0K0dc::cld0XXX0kxxxxkxxdooodxxddool:,.                 
+',;'.                                    ,lol,.    .;xkd' .....  ..ckOl.........cOXXXXXk:;;;;;:odl::;;;:lx0KOxxxxxxkkOOkk0K0Okxxxdddol;.              
+...                                      .;:::'    .cdxo'         ..''.. ......';:okKXKd;,;;,',,,,,;;;;,;cloolloc::loooodOKXK0OOxddddxdc.             
+                                          .',,,.   .:llc.           ...........'...';ll;'',,'..'''''',,'...',;:::;,,'.':cd0XXXKKOoclodxxo'            
+                                            ....   .';;;.       .'cdxxdc,'''.',,'...  .....'....'.........,oxxdodo:'...;ok0KK00Oxl;:oxkOk:            
+                                                    ..''.    ..';oOXNNNXOdc;,,;;...       ...;lddlc:;;;:clxkkkdc;:c:::ok0K00000Okxddk0Okx:            
+                                                            .,;:odk00KXXXX0Oo,.,,...,'.     .o0KKK0Okxddddooollc:cloodxkkkOOOOOOOOOOOOOko'            
+                                                           .';:okkOOdoodxxkOx;.',.'lkkdc'.   .:lddxxdoollccllooooddddddddddxxkkkkxxxdoc,.             
+                                                           ,:,:d0000o...,;:::;,;::odxxkxo:'.   ...'''''..............................                 
+                                                          .:;,;lk0K0l.    .....,,,,,''''''..                                                          
+                                                          .:;'',oOKO:                                                                                 
+                                                          .;;'',:dOx'                                                                                 
+                                                           ';;:;;:od;                                                                                 
+                                                          .;ooc;,':xo.                                                                                
+                                                          ,kKklcclokOxoc:;.                                                                           
+                                                         .dKOc':kXXklcldkOo;.                                                                         
+                                                         'ol'  .;xOk:.  .,:c'                                                                         
+                                                         ':.     .cxo.    ...                                                                         
+
+        """)
 
         loop2 = 1
 
